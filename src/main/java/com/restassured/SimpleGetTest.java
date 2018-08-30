@@ -21,7 +21,6 @@ public class SimpleGetTest {
         RequestSpecification httpRequest = RestAssured.given();
 
         // Make a request to the server by specifying the method Type and the method URL.
-
         Response response = httpRequest.request(Method.GET, "/Dhaka");
 
         //Header name, Content type
